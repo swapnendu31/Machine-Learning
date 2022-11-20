@@ -1,0 +1,23 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    border-color: #808080;
+    border: 40px;
+    background-color: #808080;
+    margin: 30px;
+    opacity: 50%;
+    padding: 5px;
+    line-height: 35%;
+}
+.body{
+     background-position: 50% 30%;
+     
+}
+.tab{
+display: inline;
+}
+#tab2{
+    display: flex;
+    flex-direction: column;
+}

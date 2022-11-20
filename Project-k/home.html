@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title style="font-family:Arial Narrow Bold;">Hotel Moscow</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="header"><h1 id="mh">Hotel Moscow</h1><br><h3 id="mh2">(For Online Table Reservations)</h3></div>
-    <form action="Post" id="form1" >
+<body class="body">
+    <div class="tab"><div id="tab1">Hotel Moscow</div>
+        <div id="tab2"><ul>
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Log In</div>
+        </ul></div>
+    </div>
+    <form action="home.php" method="post" id="form1" >
         <input type="text" name="Name" placeholder="Ranjan">
         <input type="text" name="Contact No" placeholder="9002010233">
         <input type="date" name="Date" placeholder="">

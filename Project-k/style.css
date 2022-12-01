@@ -2,7 +2,6 @@
 
 *{
     padding: 0%;
-    border: ;
     margin: 0%;
 }
 header{
@@ -34,25 +33,19 @@ header{
     padding-bottom: 6px;
 }
 nav{
-    border-top:3px solid grey;
+    border-top:5px solid grey;
     background-color:#00B7EB;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 nav a{
     text-decoration: none;
     color: black;
-    padding: 8px;
     border-width: 2px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
     border:solid #00B7EB;
     border-radius: 2px;
-}
-nav div{
-    text-align: center;
-    text-decoration: none;
-    color: black;
 }
 #copy{
     text-align: center;
@@ -73,20 +66,81 @@ footer{
 }
 .under{
     padding-bottom: 8px;
-    text-decoration: underline;
+    font-weight: bold;
 }
-.container {
-    background-color: #043e7d;
-    position: relative;
-    text-align: center;
-    color: white;
+.container{
+    background-image: url("about.jpeg");
+    background-size: 100%;
+    padding-bottom: 50%;
   }
-.content {
+.content-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 71px;
+    margin-bottom: 71px;
+    padding: 30px;
+    padding-right: 12%;
+    right: 0px;
+    margin-top: 228px;
     position: absolute;
-    bottom: 0; /*
-    background: rgb(255, 255, 255); 
-    background: rgba(255, 255, 255, 0.3); 
-    color: #000000; 
-    width: 100%;   */
-    
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
   }
+.content-about {
+    background-color: rgba(254, 253, 253, 0.6);
+    margin-top: 71px;
+    margin-bottom: 71px;
+    padding-left: 30px;
+    padding-right: 35px;
+    margin-right: 50%;
+    left: 0px;
+    font-size: 17px;
+    position: absolute;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+  .content-form #form-home{
+    padding-left: 25px;
+    text-align:center;
+    margin-bottom: 13px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+  }
+  #col{
+    color: grey;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  input{
+    padding: 6px;
+    margin: 9px;
+    width: 94%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    border: 1px solid gray;
+  }
+  .content-form form textarea{
+    margin-left: 5px;
+    margin-top: 10px;
+    border-color: gray;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .about1{
+    padding-top: 25px;
+    color: rgb(0, 100, 167);
+    font-weight: bolder;
+    font-size: 35px;
+  }
+  .about2{
+    margin-bottom: 35px;
+  }
+  .content-form form button{
+    padding: 7px;
+    border-radius: 4px;
+    border: 0px;
+  }
+  .content-form form button a{
+    text-decoration: none;
+    color: #000;
+  }
+  

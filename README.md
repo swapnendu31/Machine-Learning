@@ -3,4 +3,4 @@ for dataset is taken from official kerala site and there type of ml algorithm is
 
 accuracy is 90%.
 
-this is new update.
+this.
